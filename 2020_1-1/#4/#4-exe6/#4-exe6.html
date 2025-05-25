@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <style type="text/css">
+      @@media print
+      {
+        img {
+          display: none;
+        }
+        #leftnav {
+          display: none;
+        }
+      }
+
+      img {
+        vertical-align: middle;
+        padding-right: 20px;
+      }
+      #middle {
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+      }
+      #leftnav {
+        background-color: #cfcfff;
+        padding: 5px 5px 5px 5px;
+        margin-top: 10px;
+        float: left;
+      }
+      #rightnav {
+        padding-left: 20px;
+        display: inline-block;
+      }
+      #footer {
+        font: italic small arial;
+        text-align: right;
+      }
+      a:hover.leftnav {
+        color: red;
+        display: block;
+      }
+      a:link.leftnav {
+        color: navy;
+        text-decoration: none;
+        display: block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1><img src="scene.jpg" alt="scene" width="100">My Home Page</h1>
+    <div id="middle">
+    <div id="leftnav">
+      <a href="#" class="leftnav">Home</a>
+      <a href="#" class="leftnav">Education</a>
+      <a href="#" class="leftnav">Services</a>
+      <a href="#" class="leftnav">Publication</a>
+    </div>
+    <div id="rightnav">
+      <h2>My Favorite Sites:</h2>
+      <ul>
+        <li><a href="#">SWDM home page</a></li>
+        <li><a href="#">Naver</a></li>
+        <li><a href="#">Movie Database</a></li>
+        <li><a href="#">W3 Schools</a></li>
+      </ul>
+      <h2>Helpful Resources:</h2>
+      <ul>
+        <li><a href="#">HTML Reference</a></li>
+        <li><a href="#">CSS Reference</a></li>
+      </ul>
+    </div>
+    </div>
+    <p id=footer>Last Modified on Sept.29.2014.<br>Managed by me</p>
+  </body>
+</html>
